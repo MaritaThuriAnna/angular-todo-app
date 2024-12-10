@@ -1,28 +1,60 @@
-# TodoApp
+# To-Do List App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
+A simple and elegant To-Do List app built with Angular. This app helps you organize and manage your tasks effectively with features like task completion, deletion, and persistent storage.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- Add tasks to your to-do list.
+- Mark tasks as completed (crossed out).
+- Delete tasks you no longer need.
+- Persistent storage using local storage—tasks stay even after refreshing the page.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## How to Use
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Adding a Task
+1. Type the name of your task in the input box.
+2. Click the "Add Task" button to add it to the list.
 
-## Running unit tests
+### Marking a Task as Completed
+1. Check the box next to a task to mark it as completed.
+2. The task will appear crossed out.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Deleting a Task
+1. Click the "Delete" button next to a task to remove it from the list.
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Installation
 
-## Further help
+To set up the project locally:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# angular-todo-app
+1. Clone the repository:
+   git clone https://github.com/your-username/todo-list-app.git
+
+2. Navigate to the project directory:
+   cd todo-list-app
+
+3. Install dependencies:
+   npm install
+
+4. Run the app:
+    ng serve
+
+5. Open http://localhost:4200 in your browser to view the app.
+
+
+## Technologies Used
+
+- Angular: Standalone components for a modular structure.
+- Local Storage: For persistent task storage.
+- CSS Flexbox: For modern and responsive styling.
+
+## Known Limitations
+
+1. Tasks are device-specific and not synced across devices.
+2. You cannot edit tasks—only add, complete, or delete them.
+3. There is no "Clear All" or "Undo" feature.
