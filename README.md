@@ -1,6 +1,6 @@
 # To-Do List App
 
-A simple and elegant To-Do List app built with Angular. This app helps you organize and manage your tasks effectively with features like task completion, deletion, and persistent storage.
+A simple To-Do List app built with Angular. This app helps you organize and manage your tasks effectively with features like task completion, deletion, and persistent storage.
 
 ---
 
