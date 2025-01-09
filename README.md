@@ -2,6 +2,7 @@
 
 A simple To-Do List app built with Angular. This app helps you organize and manage your tasks effectively with features like task completion, deletion, and persistent storage.
 
+Try it out here : https://angular-todo-app-b787.vercel.app/
 ---
 
 ## Features
